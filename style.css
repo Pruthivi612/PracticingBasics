@@ -1,0 +1,101 @@
+/* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .bi-search {
+    color: black;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    padding: 0 90px;
+  }
+  
+  /* Header styles */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .header h2 {
+    font-size: 24px;
+  }
+  
+  /* inpBox styles */
+  .inpBox {
+    width: 1060px;
+    background-color: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 200px;
+  }
+  
+  .headerInp {
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    width: 200px;
+    border: 0;
+    outline: 0;
+  }
+  
+  /* Fashion Header */
+  .fashion-logo {
+    height: 26px;
+    width: 151px;
+  }
+  
+  /* Login dropdown styles */
+  .loginDropdown {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 7px;
+  }
+  
+  /* Logo container styles */
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo-container img {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Cards Styling starts */
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardImg {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+  
+  .priceBox,
+  .cardAdditionalBox {
+    margin-top: 10px;
+  }
+  
