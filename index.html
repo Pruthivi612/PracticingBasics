@@ -16,7 +16,7 @@
       <h2>SHOPPERS STOP</h2>
 
       <!-- Input box for "Hello" -->
-      <div class="inpBox">
+      <div class="inpBox" onclick="inpBoxClick()" >
         <i class="bi bi-search"></i>
         <input type="text" class="headerInp" placeholder="Enter Text" />
       </div>
@@ -47,19 +47,31 @@
           src="https://www.shoppersstop.com/icons/heart_black.svg"
           alt="Liked"
         />
-        <img
-          src="https://www.shoppersstop.com/icons/bag_black.svg"
-          alt="Bag"
-        />
+        <div class="cart">
+          <img
+            src="https://www.shoppersstop.com/icons/bag_black.svg"
+            alt="Bag"
+          />
+          <span class="cartCount">0</span>
+        </div>
       </div>
     </header>
     <!-- Header ends -->
 
-    <!-- Products page -->
-    <div class="cards-container">
-      <!-- Product cards will be dynamically inserted here -->
+    <div class="main-content">
+      <div class="cards-container">
+      </div>
+
+      <div class="cart-section">
+        <h3>Your Cart</h3>
+        <ul class="cart-items">
+        </ul>
+        <div class="cart-summary">
+          <p>Total Price: $<span id="totalPrice">0</span></p>
+        </div>
+      </div>
     </div>
 
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
